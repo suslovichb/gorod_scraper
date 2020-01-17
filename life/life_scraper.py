@@ -4,7 +4,11 @@ import re
 import os
 import time
 
+<<<<<<< HEAD
 author_id = input("Enter author id: ")
+=======
+author_id = 226854
+>>>>>>> a9cee8abcb5badc4be4886ce8e6b483c7d163a12
 picnumber = 1 #pic numeration start point
 url = "https://gorod.dp.ua/myfoto/author.php?page=1&id={}".format(author_id)
 html = urllib.request.urlopen(url)
@@ -30,4 +34,8 @@ for pagenumber in range(1, endnumber+1):
         print(piclink)
     print("\nPage {} parsed\n".format(pagenumber))
     print('--------------------------------------------------------')
+<<<<<<< HEAD
 
+=======
+    # time.sleep(2)
+>>>>>>> a9cee8abcb5badc4be4886ce8e6b483c7d163a12
